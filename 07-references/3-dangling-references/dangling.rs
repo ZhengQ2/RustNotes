@@ -17,3 +17,12 @@ fn produce_fuel() -> String {
     let new_fuel = String::from("RP-1");
     new_fuel
 }
+
+* autoconf >= 2.69
+* automake >= 1.16.1
+* gettext
+* autopoint
+* pkg-config
+* texinfo (for makeinfo)
+* GCC
+* GNU Make (POSIX make is not sufficient)
